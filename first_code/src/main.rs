@@ -21,7 +21,8 @@ fn main() {
     
     // Shadowing
     let count = 5;
-    let count = count + 1;              // New variable shadows previous one
+    println!("Initial count: {}", count);
+    let count = 7.5;              // New variable shadows previous one
     
     println!("My name is {}", name);
     println!("a: {}, b: {}, c: {}", a, b, c);
