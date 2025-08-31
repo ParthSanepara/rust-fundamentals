@@ -50,4 +50,16 @@ fn main() {
     } else {
         println!("Data is greater than 100");
     }
+
+    let mut x = 0;
+    loop {
+        println!("Looping...");
+        x += 1;
+        if x == 5 {
+            println!("Breaking the loop.");
+            break;
+        }
+    }
+
+    println!("exit!");
 }
